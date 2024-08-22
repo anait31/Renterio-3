@@ -14,13 +14,17 @@
     <!-- IONUCINS CDN -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="max-w-7xl mx-auto">
+    <div class="font-manrope">
         <!-- Header -->
-        <header>
+        <header class="max-w-7xl mx-auto">
             <div class="navbar bg-base-100 relative md:static">
                 <div class="navbar-start">
                     <div class="dropdown absolute right-0 md:static">
@@ -66,13 +70,15 @@
         </header>
         <main>
             <!-- Hero -->
-            <div class="text-center">
+            <div class="text-center max-w-7xl mx-auto">
                 <div class="flex justify-center"><img class="" src="./assets/banner.png" alt=""></div>
                 <div class="space-y-5 mt-6">
-                    <h1 class="text-3xl lg:text-6xl font-bold lg:w-10/12 mx-auto">A barn house of this design has a striking
+                    <h1 class="text-3xl lg:text-6xl font-bold lg:w-10/12 mx-auto">A barn house of this design has a
+                        striking
                         appearance
                     </h1>
-                    <p class="text-xl lg:w-10/12 mx-auto">The barn house captivates with its blend of rustic charm and modern
+                    <p class="text-xl lg:w-10/12 mx-auto">The barn house captivates with its blend of rustic charm and
+                        modern
                         sophistication,
                         featuring weathered wood, sleek metal accents, and large windows that flood the space with
                         natural
@@ -80,6 +86,41 @@
                     <button class="bg-[#ABEF5F50] text-2xl font-semibold py-3 px-5 rounded-3xl">View Details <img
                             class="inline-block bg-[#ABEF5F] p-3 rounded-full" src="./assets/arrowupright.png"
                             alt=""></button>
+                </div>
+            </div>
+            <!-- About Us -->
+            <div class="bg-[#1E1E1E20] pt-8 mt-8">
+                <img class="mb-4 hidden md:block lg:ml-60" src="./assets/Vector.png" alt="">
+                <div class="max-w-7xl mx-auto">
+                    <div class="flex flex-col md:flex-row items-center px-6 md:px-0">
+                        <div class="space-y-8">
+                            <div class="text-center md:text-start space-y-4">
+                                <button class="bg-white p-2 rounded-2xl"><i class="fa-solid fa-arrow-right"></i>About
+                                    Us</button>
+                                <h3 class="text-3xl md:text-5xl font-bold md:w-10/12">We design thoughtful, liveable
+                                    spaces</h3>
+                                <p>The barn house captivates with its blend of rustic charm and
+                                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                            </div>
+                            <div class="flex bg-white md:w-11/12 p-6 rounded-md">
+                                <img src="./assets/commercial.png" alt="">
+                                <div class="ml-3 space-y-3">
+                                    <h4 class="text-2xl font-semibold">Commercial</h4>
+                                    <p class="md:w-3/4">The barn house captivates with its blend of rustic charm and
+                                        modern.</p>
+                                </div>
+                            </div>
+                            <div class="flex bg-white md:w-11/12 p-6 rounded-md">
+                                <img src="./assets/residential.png" alt="">
+                                <div class="ml-3 space-y-3">
+                                    <h4 class="text-2xl font-semibold">Residential</h4>
+                                    <p class="md:w-3/4">The barn house captivates with its blend of rustic charm and
+                                        modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img  class="mt-8 w-full" src="./assets/Rectangle.png" alt="">
+                    </div>
                 </div>
             </div>
         </main>
